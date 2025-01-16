@@ -1,0 +1,4 @@
+eng-to-ipa
+deep-translator
+langid
+requests
