@@ -30,7 +30,7 @@ A Python class designed to easily create, manage, and expand a smart multilingua
 
 ## Usage
 
-### 1. Initialize the dictionary
+### Initialize the dictionary
 Create a new `LangDict` object by providing the path to a JSON file where the dictionary will be stored and interacted with.
 
 ```python
@@ -62,7 +62,7 @@ dictionary.fill_translation_gaps(verbose=True)
 dictionary.export_to_md("dictionary.md")
 ```
 
-### 6. Display the Dictionary
+### Display the Dictionary
 ```python
 print(dictionary)
 ```
