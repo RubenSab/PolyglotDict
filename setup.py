@@ -5,6 +5,7 @@ setup(
     version='1.0.0',
     description='A library/class designed to easily create, manage, and expand a smart multilingual dictionary.',
     author='Ruben Sabatini',
+    url='https://github.com/RubenSab/PolyglotDict',
     packages=find_packages(),
     install_requires=[
         'eng-to-ipa',
