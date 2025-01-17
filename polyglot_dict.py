@@ -44,7 +44,7 @@ def get_word_class(word, language):
 
 
 
-class PolyglotDict:
+class dictionary:
 
 
 

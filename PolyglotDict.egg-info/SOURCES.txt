@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+PolyglotDict.egg-info/PKG-INFO
+PolyglotDict.egg-info/SOURCES.txt
+PolyglotDict.egg-info/dependency_links.txt
+PolyglotDict.egg-info/requires.txt
+PolyglotDict.egg-info/top_level.txt

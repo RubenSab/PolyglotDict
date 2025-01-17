@@ -17,54 +17,54 @@ A Python class designed to easily create, manage, and expand a smart multilingua
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/LangDict.git
+   git clone https://github.com/RubenSab/PolyglotDict
    ```
 2. Go to the project directory:
    ```bash
-   cd LangDict
+   cd PolyglotDict
    ```
 3. Install the required dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install .
    ```
 
 ## Usage
 
 ### Initialize the dictionary
-Create a new `LangDict` object by providing the path to a JSON file where the dictionary will be stored and interacted with.
+Create a new `dictionary` object by providing the path to a JSON file where the dictionary will be stored and interacted with.
 
 ```python
-from LangDict import LangDict
+from PolyglotDict import dictionary
 
-dictionary = LangDict('dictionary.json')
+Dict = PolyglotDict.dictionary('dictionary.json')
 ```
 
 ### Add words
 
 #### Add a single word
 ```python
-dictionary.add_word("hello", source_lang="en", target_langs=["es", "fr", "it"])
+Dict.add_word("hello", source_lang="en", target_langs=["es", "fr", "it"])
 ```
 #### Add words in bulk
 Input a file where each word is on a separate line.
 ```python
-dictionary.add_words_in_bulk("words.txt", source_lang="en", target_langs=["es", "fr"], verbose=True)
+Dict.add_words_in_bulk("words.txt", source_lang="en", target_langs=["es", "fr"], verbose=True)
 ```
 
 ### Fill translation gaps
 Automatically translate all words into missing target languages (it can take a while).
 ```python
-dictionary.fill_translation_gaps(verbose=True)
+Dict.fill_translation_gaps(verbose=True)
 ```
 
 ### Export to markdown table
 ```python
-dictionary.export_to_md("dictionary.md")
+Dict.export_to_md("dictionary.md")
 ```
 
 ### Display the Dictionary
 ```python
-print(dictionary)
+print(Dict)
 ```
 
 ## Dependencies

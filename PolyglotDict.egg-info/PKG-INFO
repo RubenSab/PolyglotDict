@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: PolyglotDict
+Version: 1.0.0
+Summary: A library/class designed to easily create, manage, and expand a smart multilingual dictionary.
+Author: Ruben Sabatini
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: eng-to-ipa
+Requires-Dist: deep-translator
+Requires-Dist: langid
+Requires-Dist: requests
+Dynamic: author
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
